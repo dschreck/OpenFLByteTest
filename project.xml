@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="ByteTest" package="com.zynga.bytetest" version="1.0.0" company="Zynga Inc." />
+	<app main="Main" path="Export" file="Main" />
+
+	<window width="800" height="600" fps="61" background="0xFFFFFF" resizable="false" borderless="false" vsync="false" fullscreen="false" antialiasing="4" />
+
+	<source path="Source" />
+
+	<set name="webgl" if="html5" />
+	<haxedef name="webgl" if="html5" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="format" />
+
+    <assets path="Assets" rename="assets" type="binary" />
+
+</project>
